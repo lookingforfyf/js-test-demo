@@ -1,0 +1,12 @@
+{
+    "testExplorer.useNativeTesting": true,
+    "testExplorer.showOnRun": true,
+    "workbench.colorTheme": "Default Dark Modern",
+
+    "emmet.extensionsPath": ["/Users/fanyunfei/github/vscode-demos/js-test-demo/.vscode/emmet"],
+
+    "window.zoomLevel": 2,
+    "editor.fontSize": 14
+
+    // "jest.showCoverageOnLoad": true
+}

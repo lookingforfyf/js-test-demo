@@ -1,0 +1,8 @@
+[
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Debug Jest Tests"
+    
+  }
+]
