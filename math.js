@@ -21,7 +21,7 @@ function divide(a, b) {
 function power(a, b) {
   return Math.pow(a, b);
 }
-
+//mark: - fetchData
 async function fetchData() {
   return new Promise((resolve) => {
     setTimeout(() => resolve('data'), 1000);
