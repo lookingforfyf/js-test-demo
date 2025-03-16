@@ -10,7 +10,7 @@
 // });
 
 // math.test.js
-const { add, subtract, multiply, divide, power } = require('./math');
+const { add, subtract, multiply, divide, power, fetchData } = require('./math');
 // import { add, subtract, multiply, divide, power } from './math.js';
 
 test('adds 1 + 2 to equal 3', () => {
@@ -41,7 +41,7 @@ test('calculates 2 ^ 3 to equal 8', () => {
   expect(power(2, 3)).toBe(8);
 });
 
-// test('fetchData returns "data"', async () => {
-//   const data = await fetchData();
-//   expect(data).toBe('data');
-// });
+test('fetchData returns "data"', async () => {
+  const data = await fetchData();
+  expect(data).toBe('data');
+});
