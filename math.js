@@ -1,4 +1,5 @@
 // math.js
+//MARK: - math.js
 function add(a, b) {
   return a + b;
 }
@@ -7,6 +8,7 @@ function subtract(a, b) {
   return a - b;
 }
 
+//MARK: - multiply
 function multiply(a, b) {
   return a * b;
 }
