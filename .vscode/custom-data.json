@@ -1,0 +1,32 @@
+{
+    "version": 1.1,
+    "properties": {
+      "--brand-color": {
+        "description": "Primary brand color for the theme",
+        "syntax": "<color>",
+        "relevance": 100
+      }
+    },
+    "atDirectives": {
+      "@theme": {
+        "description": "Define a custom theme block",
+        "references": [
+          {
+            "name": "Theme Docs",
+            "url": "https://example.com/docs/theme"
+          }
+        ]
+      }
+    },
+    "pseudoClasses": {
+      ":focus-ring": {
+        "description": "Applies a focus style when keyboard navigation is used"
+      }
+    },
+    "pseudoElements": {
+      "::marker": {
+        "description": "Represents the bullet or numbering of a list item"
+      }
+    }
+  }
+  

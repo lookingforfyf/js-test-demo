@@ -6,5 +6,6 @@
     "emmet.extensionsPath": ["/Users/fanyunfei/github/vscode-demos/js-test-demo/.vscode/emmet"],
 
     "window.zoomLevel": 2,
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "css.customData": ["./custom-data.json"]
 }

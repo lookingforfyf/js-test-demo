@@ -9,6 +9,13 @@
           "kind": "test",
           "isDefault": true
         }
+      },
+
+      {
+        "label": "Sass Compile",
+        "type": "shell",
+        "command": "sass ${workspaceFolder}/styles/styles.scss ${workspaceFolder}/styles/styles.css",
+        "group": "build"
       }
     ]
   }
