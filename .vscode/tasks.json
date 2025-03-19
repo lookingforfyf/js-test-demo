@@ -1,22 +1,26 @@
-{
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "Run Jest Tests",
-        "type": "shell",
-        "command": "npm test",
-        "group": {
-          "kind": "test",
-          "isDefault": true
-        }
-      },
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//       {
+//         "label": "Run Jest Tests",
+//         "type": "shell",
+//         "command": "npm test",
+//         "group": {
+//           "kind": "test",
+//           "isDefault": true
+//         }
+//       },
 
-      {
-        "label": "Sass Compile",
-        "type": "shell",
-        "command": "sass ${workspaceFolder}/styles/styles.scss ${workspaceFolder}/styles/styles.css",
-        "group": "build"
-      }
-    ]
-  }
+//       {
+//         "label": "Sass Compile",
+//         "type": "shell",
+//         "command": "sass ${workspaceFolder}/styles/styles.scss ${workspaceFolder}/styles/styles.css",
+//         "group": "build"
+//       }
+//     ]
+//   }
+
+{
+  "version": "2.0.0"
+}
   
